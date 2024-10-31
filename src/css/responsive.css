@@ -1,0 +1,9 @@
+@media(max-width: 768px){
+    .gerador{
+        width: 386px;
+    }
+
+    .gerador p{
+        font-size: 21px;
+    }
+}

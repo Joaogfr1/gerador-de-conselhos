@@ -1,0 +1,61 @@
+body{
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gerador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    margin: 20px;
+    background-color: hsl(217, 19%, 24%);
+    flex-wrap: wrap;
+    gap: 50px;
+    border-radius: 10px;
+}
+
+
+
+.numero-conselho{
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 11px;
+    margin-top: 30px;
+    
+}
+
+
+.conselho{
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    font-size: 24px;
+    padding: 23px;
+}
+
+
+
+.botao{
+    background-color: hsl(150, 100%, 66%);
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    transform: translateY(50%);
+}
+
+.botao:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
